@@ -246,9 +246,10 @@ This project is licensed under the MIT License - see [LICENSE](./LICENSE) for de
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=amerob/ultimate-prompt-engineering-playbook&type=Date)](https://star-history.com/#amerob/ultimate-prompt-engineering-playbook&Date)
+![Star History Chart](star-chart.svg)
+
+[🔗 View live interactive chart](https://www.star-history.com/#amerob/ultimate-prompt-engineering-playbook&Date)
 
 ---
-
 
 If this repository helps you, please consider giving it a ⭐!

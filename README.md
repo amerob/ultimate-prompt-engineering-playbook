@@ -1,4 +1,4 @@
-# 🚀 Ultimate Prompt Engineering Playbook
+# 🧩 Ultimate Prompt Engineering Playbook
 
 [![GitHub stars](https://img.shields.io/github/stars/amerob/ultimate-prompt-engineering-playbook?style=social)](https://github.com/amerob/ultimate-prompt-engineering-playbook/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

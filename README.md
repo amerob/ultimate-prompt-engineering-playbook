@@ -1,260 +1,255 @@
 # 🚀 Ultimate Prompt Engineering Playbook
 
-![GitHub stars](https://img.shields.io/github/stars/amerob/ultimate-prompt-engineering-playbook?style=social)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Last Commit](https://img.shields.io/github/last-commit/amerob/ultimate-prompt-engineering-playbook)
-[![Open All In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/)
+[![GitHub stars](https://img.shields.io/github/stars/amerob/ultimate-prompt-engineering-playbook?style=social)](https://github.com/amerob/ultimate-prompt-engineering-playbook/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook)
+[![Last Commit](https://img.shields.io/github/last-commit/amerob/ultimate-prompt-engineering-playbook)](https://github.com/amerob/ultimate-prompt-engineering-playbook/commits/main)
 
-> A curated collection of **114 interactive Jupyter notebooks** teaching every prompt engineering technique for ChatGPT, Claude, Gemini, and more.
+> A curated collection of **114 interactive Jupyter notebooks** teaching prompt engineering for ChatGPT, Claude, Gemini, and more.
 
----
+![Prompt Engineering Banner](https://img.shields.io/badge/Prompt%20Engineering-Master%20Class-blue)
 
-## ✨ Key Features
+## 🌟 What Makes This Special?
 
-- **📖 Clear Explanations** — Each technique explained with theory and intuition
-- **💻 Runnable Code** — Every notebook works in Google Colab with one click
-- **🌍 Real-World Examples** — Practical scenarios you'll actually encounter
-- **❌ Failure Cases** — Learn when techniques break and why
-- **📊 Benchmarks** — Quantitative and qualitative performance comparisons
-- **🎮 Interactive Playground** — Try every technique with your own prompts
-- **🤖 Multi-Model** — Examples for OpenAI GPT-4, Anthropic Claude, and Google Gemini
+This isn't just another list of prompts. It's a **comprehensive, hands-on learning experience** covering every major prompt engineering technique with:
 
----
+- ✅ **114 Interactive Notebooks** - One per technique
+- ✅ **Runnable Code** - Execute directly in Google Colab
+- ✅ **Real-World Examples** - Practical applications, not toy problems
+- ✅ **Failure Case Analysis** - Learn what doesn't work and why
+- ✅ **Benchmark Data** - Performance metrics where available
+- ✅ **Multi-Model Support** - OpenAI, Anthropic, Google, and more
+- ✅ **Interactive Playgrounds** - Experiment with your own prompts
 
-## 🚀 How to Use
+## 📚 Table of Contents
 
-### Option 1: Google Colab (Recommended)
-1. Click the **"Open in Colab"** badge on any notebook below
-2. Enter your API keys when prompted (uses `getpass` — never stored)
-3. Run cells and experiment!
+### 🏗️ [01 - Foundational Prompting](./notebooks/01-foundational/)
+| # | Technique | Notebook |
+|---|-----------|----------|
+| 01 | Zero-Shot Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/01-foundational/01_zero_shot_prompting.ipynb) |
+| 02 | Direct Instruction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/01-foundational/02_direct_instruction.ipynb) |
+| 03 | System Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/01-foundational/03_system_prompting.ipynb) |
+| 04 | Context Setting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/01-foundational/04_context_setting.ipynb) |
+| 05 | Delimiter Usage | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/01-foundational/05_delimiter_usage.ipynb) |
+| 06 | Explicit Constraints | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/01-foundational/06_explicit_constraints.ipynb) |
+| 07 | Output Priming | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/01-foundational/07_output_priming.ipynb) |
+| 08 | Prompt Chaining (Basic) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/01-foundational/08_prompt_chaining_basic.ipynb) |
 
-### Option 2: Local Setup
+### 🧠 [02 - Reasoning & Logic](./notebooks/02-reasoning/)
+| # | Technique | Notebook |
+|---|-----------|----------|
+| 09 | Chain-of-Thought (CoT) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/02-reasoning/09_chain_of_thought.ipynb) |
+| 10 | Zero-Shot CoT | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/02-reasoning/10_zero_shot_cot.ipynb) |
+| 11 | Self-Consistency | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/02-reasoning/11_self_consistency.ipynb) |
+| 12 | Tree of Thoughts (ToT) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/02-reasoning/12_tree_of_thoughts.ipynb) |
+| 13 | Decomposed Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/02-reasoning/13_decomposed_prompting.ipynb) |
+| 14 | Program-Aided LLM (PAL) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/02-reasoning/14_program_aided_llm.ipynb) |
+| 15 | ReAct (Reasoning + Acting) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/02-reasoning/15_react.ipynb) |
+| 16 | Reflexion | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/02-reasoning/16_reflexion.ipynb) |
+| 17 | Logical Verification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/02-reasoning/17_logical_verification.ipynb) |
+| 18 | Proof Generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/02-reasoning/18_proof_generation.ipynb) |
+
+### 🎯 [03 - Few-Shot & In-Context Learning](./notebooks/03-few-shot/)
+| # | Technique | Notebook |
+|---|-----------|----------|
+| 19 | Few-Shot Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/03-few-shot/19_few_shot_prompting.ipynb) |
+| 20 | k-Shot Learning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/03-few-shot/20_k_shot_learning.ipynb) |
+| 21 | Example Ordering | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/03-few-shot/21_example_ordering.ipynb) |
+| 22 | Label Distribution | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/03-few-shot/22_label_distribution.ipynb) |
+| 23 | Dynamic Few-Shot | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/03-few-shot/23_dynamic_few_shot.ipynb) |
+| 24 | Similarity-Based Selection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/03-few-shot/24_similarity_based_selection.ipynb) |
+| 25 | In-Context Instruction Learning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/03-few-shot/25_in_context_instruction_learning.ipynb) |
+| 26 | Exemplar Augmentation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/03-few-shot/26_exemplar_augmentation.ipynb) |
+
+### 🎭 [04 - Role-Playing & Persona](./notebooks/04-role-playing/)
+| # | Technique | Notebook |
+|---|-----------|----------|
+| 27 | Role Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/04-role-playing/27_role_prompting.ipynb) |
+| 28 | Expert Persona | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/04-role-playing/28_expert_persona.ipynb) |
+| 29 | Multi-Persona Debate | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/04-role-playing/29_multi_persona_debate.ipynb) |
+| 30 | Character Consistency | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/04-role-playing/30_character_consistency.ipynb) |
+| 31 | Audience Adaptation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/04-role-playing/31_audience_adaptation.ipynb) |
+| 32 | Persona Switching | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/04-role-playing/32_persona_switching.ipynb) |
+| 33 | Authority Framing | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/04-role-playing/33_authority_framing.ipynb) |
+| 34 | Emotional Persona | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/04-role-playing/34_emotional_persona.ipynb) |
+
+### 🎛️ [05 - Output Control & Formatting](./notebooks/05-output-control/)
+| # | Technique | Notebook |
+|---|-----------|----------|
+| 35 | Structured Output | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/05-output-control/35_structured_output.ipynb) |
+| 36 | JSON Mode | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/05-output-control/36_json_mode.ipynb) |
+| 37 | XML Formatting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/05-output-control/37_xml_formatting.ipynb) |
+| 38 | Markdown Control | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/05-output-control/38_markdown_control.ipynb) |
+| 39 | Template Filling | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/05-output-control/39_template_filling.ipynb) |
+| 40 | Output Length Control | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/05-output-control/40_output_length_control.ipynb) |
+| 41 | Style Transfer | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/05-output-control/41_style_transfer.ipynb) |
+| 42 | Tone Adjustment | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/05-output-control/42_tone_adjustment.ipynb) |
+| 43 | Format Enforcement | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/05-output-control/43_format_enforcement.ipynb) |
+| 44 | Response Filtering | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/05-output-control/44_response_filtering.ipynb) |
+
+### 🔄 [06 - Iterative & Conversational](./notebooks/06-iterative/)
+| # | Technique | Notebook |
+|---|-----------|----------|
+| 45 | Iterative Refinement | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/06-iterative/45_iterative_refinement.ipynb) |
+| 46 | Multi-Turn Dialogue | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/06-iterative/46_multi_turn_dialogue.ipynb) |
+| 47 | Clarification Questions | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/06-iterative/47_clarification_questions.ipynb) |
+| 48 | Feedback Loop | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/06-iterative/48_feedback_loop.ipynb) |
+| 49 | Progressive Disclosure | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/06-iterative/49_progressive_disclosure.ipynb) |
+| 50 | Conversation Memory | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/06-iterative/50_conversation_memory.ipynb) |
+| 51 | Context Window Management | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/06-iterative/51_context_window_management.ipynb) |
+| 52 | Follow-Up Optimization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/06-iterative/52_follow_up_optimization.ipynb) |
+
+### 🔍 [07 - Retrieval-Augmented Generation](./notebooks/07-retrieval/)
+| # | Technique | Notebook |
+|---|-----------|----------|
+| 53 | Basic RAG | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/07-retrieval/53_basic_rag.ipynb) |
+| 54 | Context Injection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/07-retrieval/54_context_injection.ipynb) |
+| 55 | Document Chunking | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/07-retrieval/55_document_chunking.ipynb) |
+| 56 | Semantic Search | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/07-retrieval/56_semantic_search.ipynb) |
+| 57 | Hybrid Retrieval | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/07-retrieval/57_hybrid_retrieval.ipynb) |
+| 58 | Re-Ranking | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/07-retrieval/58_re_ranking.ipynb) |
+| 59 | Query Expansion | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/07-retrieval/59_query_expansion.ipynb) |
+| 60 | Source Attribution | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/07-retrieval/60_source_attribution.ipynb) |
+
+### 🔧 [08 - Self-Correction & Refinement](./notebooks/08-self-correction/)
+| # | Technique | Notebook |
+|---|-----------|----------|
+| 61 | Self-Correction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/08-self-correction/61_self_correction.ipynb) |
+| 62 | Self-Verification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/08-self-correction/62_self_verification.ipynb) |
+| 63 | Critique & Revise | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/08-self-correction/63_critique_and_revise.ipynb) |
+| 64 | Confidence Scoring | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/08-self-correction/64_confidence_scoring.ipynb) |
+| 65 | Error Detection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/08-self-correction/65_error_detection.ipynb) |
+| 66 | Iterative Improvement | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/08-self-correction/66_iterative_improvement.ipynb) |
+| 67 | Quality Estimation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/08-self-correction/67_quality_estimation.ipynb) |
+| 68 | Hallucination Detection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/08-self-correction/68_hallucination_detection.ipynb) |
+
+### 🛡️ [09 - Adversarial & Safety](./notebooks/09-adversarial/)
+| # | Technique | Notebook |
+|---|-----------|----------|
+| 69 | Prompt Injection Defense | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/09-adversarial/69_prompt_injection_defense.ipynb) |
+| 70 | Jailbreak Prevention | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/09-adversarial/70_jailbreak_prevention.ipynb) |
+| 71 | Output Filtering | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/09-adversarial/71_output_filtering.ipynb) |
+| 72 | Adversarial Testing | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/09-adversarial/72_adversarial_testing.ipynb) |
+| 73 | Bias Detection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/09-adversarial/73_bias_detection.ipynb) |
+| 74 | Toxicity Control | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/09-adversarial/74_toxicity_control.ipynb) |
+| 75 | Privacy Protection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/09-adversarial/75_privacy_protection.ipynb) |
+| 76 | Red Teaming | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/09-adversarial/76_red_teaming.ipynb) |
+
+### ⚙️ [10 - Optimization & Auto-Tuning](./notebooks/10-optimization/)
+| # | Technique | Notebook |
+|---|-----------|----------|
+| 77 | Prompt Optimization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/10-optimization/77_prompt_optimization.ipynb) |
+| 78 | Automatic Prompt Engineer | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/10-optimization/78_automatic_prompt_engineer.ipynb) |
+| 79 | Gradient-Free Optimization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/10-optimization/79_gradient_free_optimization.ipynb) |
+| 80 | Prompt Compression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/10-optimization/80_prompt_compression.ipynb) |
+| 81 | Token Optimization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/10-optimization/81_token_optimization.ipynb) |
+| 82 | Temperature Tuning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/10-optimization/82_temperature_tuning.ipynb) |
+| 83 | Top-p Sampling | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/10-optimization/83_top_p_sampling.ipynb) |
+| 84 | Automatic Evaluation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/10-optimization/84_automatic_evaluation.ipynb) |
+
+### 🏭 [11 - Domain-Specific Techniques](./notebooks/11-domain-specific/)
+| # | Technique | Notebook |
+|---|-----------|----------|
+| 85 | Code Generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/11-domain-specific/85_code_generation.ipynb) |
+| 86 | SQL Query Writing | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/11-domain-specific/86_sql_query_writing.ipynb) |
+| 87 | Data Analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/11-domain-specific/87_data_analysis.ipynb) |
+| 88 | Creative Writing | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/11-domain-specific/88_creative_writing.ipynb) |
+| 89 | Technical Documentation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/11-domain-specific/89_technical_documentation.ipynb) |
+| 90 | Legal Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/11-domain-specific/90_legal_prompting.ipynb) |
+| 91 | Medical Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/11-domain-specific/91_medical_prompting.ipynb) |
+| 92 | Educational Tutoring | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/11-domain-specific/92_educational_tutoring.ipynb) |
+| 93 | Marketing Copy | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/11-domain-specific/93_marketing_copy.ipynb) |
+| 94 | Scientific Writing | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/11-domain-specific/94_scientific_writing.ipynb) |
+
+### 🎪 [12 - Meta-Prompting](./notebooks/12-meta-prompting/)
+| # | Technique | Notebook |
+|---|-----------|----------|
+| 95 | Meta-Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/12-meta-prompting/95_meta_prompting.ipynb) |
+| 96 | Prompt Generation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/12-meta-prompting/96_prompt_generation.ipynb) |
+| 97 | Prompt Templates | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/12-meta-prompting/97_prompt_templates.ipynb) |
+| 98 | Prompt Chaining (Advanced) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/12-meta-prompting/98_prompt_chaining_advanced.ipynb) |
+| 99 | Multi-Agent Orchestration | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/12-meta-prompting/99_multi_agent_orchestration.ipynb) |
+| 100 | Prompt Versioning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/12-meta-prompting/100_prompt_versioning.ipynb) |
+| 101 | Prompt Testing Framework | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/12-meta-prompting/101_prompt_testing_framework.ipynb) |
+| 102 | Prompt Analytics | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/12-meta-prompting/102_prompt_analytics.ipynb) |
+
+### 🖼️ [13 - Multi-Modal Techniques](./notebooks/13-multi-modal/)
+| # | Technique | Notebook |
+|---|-----------|----------|
+| 103 | Image Understanding | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/13-multi-modal/103_image_understanding.ipynb) |
+| 104 | Visual Question Answering | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/13-multi-modal/104_visual_question_answering.ipynb) |
+| 105 | Image Captioning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/13-multi-modal/105_image_captioning.ipynb) |
+| 106 | OCR & Text Extraction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/13-multi-modal/106_ocr_text_extraction.ipynb) |
+| 107 | Chart & Graph Analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/13-multi-modal/107_chart_graph_analysis.ipynb) |
+| 108 | Document Understanding | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/13-multi-modal/108_document_understanding.ipynb) |
+| 109 | Video Analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/13-multi-modal/109_video_analysis.ipynb) |
+| 110 | Audio Processing | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/13-multi-modal/110_audio_processing.ipynb) |
+| 111 | Multi-Modal RAG | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/13-multi-modal/111_multi_modal_rag.ipynb) |
+| 112 | Cross-Modal Retrieval | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](./notebooks/13-multi-modal/112_cross_modal_retrieval.ipynb) |
+
+## 🚀 Quick Start
+
+### Option 1: Open in Google Colab (Recommended)
+
+1. Click any "Open in Colab" badge above
+2. Add your API keys when prompted
+3. Run cells and learn!
+
+### Option 2: Run Locally
+
 ```bash
+# Clone the repository
 git clone https://github.com/amerob/ultimate-prompt-engineering-playbook.git
 cd ultimate-prompt-engineering-playbook
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Set up your API keys
+export OPENAI_API_KEY="your-key-here"
+export ANTHROPIC_API_KEY="your-key-here"
+export GOOGLE_API_KEY="your-key-here"
+
+# Launch Jupyter
 jupyter notebook
 ```
 
----
+## 📊 Benchmarks & Performance
 
-## 📚 Table of Contents (114 Techniques)
-
-
-### Foundational Prompting
-📁 [`notebooks/01-foundational/`](notebooks/01-foundational/)
-
-| # | Technique | Notebook |
-|---|-----------|----------|
-| 1 | Zero-Shot Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/01-foundational/01_zero_shot_prompting.ipynb) |
-| 2 | Direct Instruction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/01-foundational/02_direct_instruction.ipynb) |
-| 3 | System Prompt Engineering | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/01-foundational/03_system_prompt_engineering.ipynb) |
-| 4 | Template Filling | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/01-foundational/04_template_filling.ipynb) |
-| 5 | Completion Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/01-foundational/05_completion_prompting.ipynb) |
-| 6 | Contextual Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/01-foundational/06_contextual_prompting.ipynb) |
-| 7 | Question Refinement | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/01-foundational/07_question_refinement.ipynb) |
-| 8 | Summarization Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/01-foundational/08_summarization_prompting.ipynb) |
-| 9 | Keyword Extraction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/01-foundational/09_keyword_extraction.ipynb) |
-| 10 | Sentiment Analysis Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/01-foundational/10_sentiment_analysis_prompting.ipynb) |
-| 11 | Text Classification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/01-foundational/11_text_classification.ipynb) |
-| 12 | Paraphrasing | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/01-foundational/12_paraphrasing.ipynb) |
-
-### Reasoning & Logic
-📁 [`notebooks/02-reasoning/`](notebooks/02-reasoning/)
-
-| # | Technique | Notebook |
-|---|-----------|----------|
-| 13 | Decomposed Prompting (DecomP) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/02-reasoning/13_decomposed_prompting.ipynb) |
-| 14 | Chain-of-Thought (CoT) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/02-reasoning/14_chain_of_thought.ipynb) |
-| 15 | Zero-Shot Chain-of-Thought | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/02-reasoning/15_zero_shot_cot.ipynb) |
-| 16 | Self-Consistency (CoT-SC) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/02-reasoning/16_self_consistency.ipynb) |
-| 17 | Tree of Thoughts (ToT) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/02-reasoning/17_tree_of_thoughts.ipynb) |
-| 18 | Graph of Thoughts (GoT) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/02-reasoning/18_graph_of_thoughts.ipynb) |
-| 19 | Program of Thoughts (PoT) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/02-reasoning/19_program_of_thoughts.ipynb) |
-| 20 | Recursive Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/02-reasoning/20_recursive_prompting.ipynb) |
-| 21 | Analogical Reasoning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/02-reasoning/21_analogical_reasoning.ipynb) |
-| 22 | Maieutic Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/02-reasoning/22_maieutic_prompting.ipynb) |
-| 23 | Contrastive Chain-of-Thought | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/02-reasoning/23_contrastive_cot.ipynb) |
-| 24 | Stepwise Refinement | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/02-reasoning/24_stepwise_refinement.ipynb) |
-
-### Few-Shot & Example-Based
-📁 [`notebooks/03-few-shot/`](notebooks/03-few-shot/)
-
-| # | Technique | Notebook |
-|---|-----------|----------|
-| 25 | Few-Shot Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/03-few-shot/25_few_shot_prompting.ipynb) |
-| 26 | One-Shot Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/03-few-shot/26_one_shot_prompting.ipynb) |
-| 27 | Few-Shot with Chain-of-Thought | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/03-few-shot/27_few_shot_cot.ipynb) |
-| 28 | Dynamic Few-Shot Selection | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/03-few-shot/28_dynamic_few_shot.ipynb) |
-| 29 | Example Ordering & Formatting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/03-few-shot/29_example_ordering.ipynb) |
-| 30 | Negative Examples | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/03-few-shot/30_negative_examples.ipynb) |
-| 31 | k-NN Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/03-few-shot/31_knn_prompting.ipynb) |
-| 32 | Pattern-Based Few-Shot | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/03-few-shot/32_pattern_based_few_shot.ipynb) |
-
-### Role-Playing & Persona
-📁 [`notebooks/04-role-playing/`](notebooks/04-role-playing/)
-
-| # | Technique | Notebook |
-|---|-----------|----------|
-| 33 | Persona Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/04-role-playing/33_persona_prompting.ipynb) |
-| 34 | Expert Panel Simulation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/04-role-playing/34_expert_panel.ipynb) |
-| 35 | Audience Adaptation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/04-role-playing/35_audience_adaptation.ipynb) |
-| 36 | Debate Simulation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/04-role-playing/36_debate_simulation.ipynb) |
-| 37 | Historical Figure Simulation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/04-role-playing/37_historical_figure_simulation.ipynb) |
-| 38 | Collaborative Agents | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/04-role-playing/38_collaborative_agents.ipynb) |
-| 39 | Interview Simulation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/04-role-playing/39_interview_simulation.ipynb) |
-| 40 | Empathetic Response Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/04-role-playing/40_empathetic_response.ipynb) |
-
-### Output Control & Formatting
-📁 [`notebooks/05-output-control/`](notebooks/05-output-control/)
-
-| # | Technique | Notebook |
-|---|-----------|----------|
-| 41 | JSON Mode / Structured Output | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/05-output-control/41_json_mode.ipynb) |
-| 42 | XML / HTML Output Formatting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/05-output-control/42_xml_html_output.ipynb) |
-| 43 | Markdown Formatting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/05-output-control/43_markdown_formatting.ipynb) |
-| 44 | Length Control | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/05-output-control/44_length_control.ipynb) |
-| 45 | Bullet Point & List Formatting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/05-output-control/45_bullet_point_formatting.ipynb) |
-| 46 | Table Formatting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/05-output-control/46_table_formatting.ipynb) |
-| 47 | Code Output Formatting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/05-output-control/47_code_output_formatting.ipynb) |
-| 48 | Multi-Format Output | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/05-output-control/48_multi_format_output.ipynb) |
-| 49 | Constrained Vocabulary | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/05-output-control/49_constrained_vocabulary.ipynb) |
-| 50 | Citation Formatting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/05-output-control/50_citation_formatting.ipynb) |
-
-### Iterative & Refinement
-📁 [`notebooks/06-iterative/`](notebooks/06-iterative/)
-
-| # | Technique | Notebook |
-|---|-----------|----------|
-| 51 | Iterative Refinement | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/06-iterative/51_iterative_refinement.ipynb) |
-| 52 | Feedback Loop Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/06-iterative/52_feedback_loop.ipynb) |
-| 53 | Progressive Disclosure | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/06-iterative/53_progressive_disclosure.ipynb) |
-| 54 | Multi-Turn Conversation Design | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/06-iterative/54_multi_turn_design.ipynb) |
-| 55 | Prompt Chaining | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/06-iterative/55_prompt_chaining.ipynb) |
-| 56 | Draft-Critique-Revise | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/06-iterative/56_draft_critique_revise.ipynb) |
-| 57 | Expansion Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/06-iterative/57_expansion_prompting.ipynb) |
-| 58 | Compression-Then-Expansion | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/06-iterative/58_compression_expansion.ipynb) |
-
-### Retrieval & Knowledge-Augmented
-📁 [`notebooks/07-retrieval/`](notebooks/07-retrieval/)
-
-| # | Technique | Notebook |
-|---|-----------|----------|
-| 59 | Retrieval-Augmented Generation (RAG) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/07-retrieval/59_rag.ipynb) |
-| 60 | Document Grounding | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/07-retrieval/60_document_grounding.ipynb) |
-| 61 | Web Search Integration | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/07-retrieval/61_web_search_integration.ipynb) |
-| 62 | Knowledge Graph Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/07-retrieval/62_knowledge_graph_prompting.ipynb) |
-| 63 | Multi-Document Synthesis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/07-retrieval/63_multi_document_synthesis.ipynb) |
-| 64 | Fact Verification Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/07-retrieval/64_fact_verification.ipynb) |
-| 65 | Contextual Window Management | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/07-retrieval/65_context_window_management.ipynb) |
-
-### Self-Correction & Verification
-📁 [`notebooks/08-self-correction/`](notebooks/08-self-correction/)
-
-| # | Technique | Notebook |
-|---|-----------|----------|
-| 66 | Self-Refine | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/08-self-correction/66_self_refine.ipynb) |
-| 67 | Self-Verification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/08-self-correction/67_self_verification.ipynb) |
-| 68 | Reflection Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/08-self-correction/68_reflection_prompting.ipynb) |
-| 69 | Constitutional AI Principles | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/08-self-correction/69_constitutional_ai.ipynb) |
-| 70 | Confidence Calibration | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/08-self-correction/70_confidence_calibration.ipynb) |
-| 71 | Error Analysis Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/08-self-correction/71_error_analysis.ipynb) |
-| 72 | Consensus Checking | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/08-self-correction/72_consensus_checking.ipynb) |
-| 73 | Socratic Self-Questioning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/08-self-correction/73_socratic_self_questioning.ipynb) |
-
-### Adversarial & Robustness
-📁 [`notebooks/09-adversarial/`](notebooks/09-adversarial/)
-
-| # | Technique | Notebook |
-|---|-----------|----------|
-| 74 | Red Teaming Prompts | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/09-adversarial/74_red_teaming.ipynb) |
-| 75 | Adversarial Prompt Testing | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/09-adversarial/75_adversarial_testing.ipynb) |
-| 76 | Jailbreak Defense | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/09-adversarial/76_jailbreak_defense.ipynb) |
-| 77 | Prompt Injection Defense | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/09-adversarial/77_prompt_injection_defense.ipynb) |
-| 78 | Bias Detection Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/09-adversarial/78_bias_detection.ipynb) |
-| 79 | Robustness Testing | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/09-adversarial/79_robustness_testing.ipynb) |
-| 80 | Safety Guardrails | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/09-adversarial/80_safety_guardrails.ipynb) |
-
-### Optimization & Efficiency
-📁 [`notebooks/10-optimization/`](notebooks/10-optimization/)
-
-| # | Technique | Notebook |
-|---|-----------|----------|
-| 81 | Prompt Compression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/10-optimization/81_prompt_compression.ipynb) |
-| 82 | Token Optimization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/10-optimization/82_token_optimization.ipynb) |
-| 83 | Batch Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/10-optimization/83_batch_prompting.ipynb) |
-| 84 | Caching Strategies | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/10-optimization/84_caching_strategies.ipynb) |
-| 85 | Prompt Templates & Variables | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/10-optimization/85_prompt_templates.ipynb) |
-| 86 | A/B Testing Prompts | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/10-optimization/86_ab_testing_prompts.ipynb) |
-| 87 | Cost-Performance Tradeoff | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/10-optimization/87_cost_performance_tradeoff.ipynb) |
-| 88 | Latency Optimization | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/10-optimization/88_latency_optimization.ipynb) |
-
-### Domain-Specific Techniques
-📁 [`notebooks/11-domain-specific/`](notebooks/11-domain-specific/)
-
-| # | Technique | Notebook |
-|---|-----------|----------|
-| 89 | Medical Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/11-domain-specific/89_medical_prompting.ipynb) |
-| 90 | Legal Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/11-domain-specific/90_legal_prompting.ipynb) |
-| 91 | Code Generation Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/11-domain-specific/91_code_generation.ipynb) |
-| 92 | Educational Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/11-domain-specific/92_educational_prompting.ipynb) |
-| 93 | Financial Analysis Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/11-domain-specific/93_financial_analysis.ipynb) |
-| 94 | Scientific Research Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/11-domain-specific/94_scientific_research.ipynb) |
-| 95 | Creative Writing Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/11-domain-specific/95_creative_writing.ipynb) |
-| 96 | Data Analysis Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/11-domain-specific/96_data_analysis.ipynb) |
-
-### Meta-Prompting & Advanced
-📁 [`notebooks/12-meta-prompting/`](notebooks/12-meta-prompting/)
-
-| # | Technique | Notebook |
-|---|-----------|----------|
-| 97 | Meta-Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/12-meta-prompting/97_meta_prompting.ipynb) |
-| 98 | Automatic Prompt Engineer (APE) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/12-meta-prompting/98_automatic_prompt_engineer.ipynb) |
-| 99 | Prompt Ensembling | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/12-meta-prompting/99_prompt_ensembling.ipynb) |
-| 100 | Chain-of-Density Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/12-meta-prompting/100_chain_of_density.ipynb) |
-| 101 | Skeleton-of-Thought | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/12-meta-prompting/101_skeleton_of_thought.ipynb) |
-| 102 | Least-to-Most Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/12-meta-prompting/102_least_to_most.ipynb) |
-| 103 | Self-Ask | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/12-meta-prompting/103_self_ask.ipynb) |
-| 104 | Emotional Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/12-meta-prompting/104_emotional_prompting.ipynb) |
-| 105 | Rephrase and Respond (RaR) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/12-meta-prompting/105_rephrase_and_respond.ipynb) |
-| 106 | Thread-of-Thought (ThoT) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/12-meta-prompting/106_thread_of_thought.ipynb) |
-
-### Multi-Modal Prompting
-📁 [`notebooks/13-multi-modal/`](notebooks/13-multi-modal/)
-
-| # | Technique | Notebook |
-|---|-----------|----------|
-| 107 | Image + Text Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/13-multi-modal/107_image_text_prompting.ipynb) |
-| 108 | Chart & Graph Analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/13-multi-modal/108_chart_graph_analysis.ipynb) |
-| 109 | Document Understanding | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/13-multi-modal/109_document_understanding.ipynb) |
-| 110 | Visual Chain-of-Thought | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/13-multi-modal/110_visual_cot.ipynb) |
-| 111 | Multi-Image Comparison | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/13-multi-modal/111_multi_image_comparison.ipynb) |
-| 112 | Audio Transcription Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/13-multi-modal/112_audio_transcription.ipynb) |
-| 113 | Video Understanding Prompting | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/13-multi-modal/113_video_understanding.ipynb) |
-| 114 | Cross-Modal Transfer | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/blob/main/notebooks/13-multi-modal/114_cross_modal_transfer.ipynb) |
-
----
+Each notebook includes:
+- **Qualitative assessments** - Human-evaluated output quality
+- **Quantitative metrics** - Accuracy, coherence, relevance scores
+- **Model comparisons** - Performance across GPT-4, Claude, Gemini
+- **Cost analysis** - Token usage and API costs
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
-- Adding new techniques
-- Improving existing notebooks
-- Reporting issues
-- Suggesting enhancements
+We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+### Ways to Contribute:
+- 🐛 Report bugs or errors
+- 💡 Suggest new techniques
+- 📝 Improve documentation
+- 🔧 Add model provider support
+- 📊 Contribute benchmark data
+
+## 🙏 Acknowledgments
+
+- OpenAI for GPT models and API
+- Anthropic for Claude
+- Google for Gemini
+- The prompt engineering community for research and techniques
+
+## 📜 License
+
+This project is licensed under the MIT License - see [LICENSE](./LICENSE) for details.
+
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=amerob/ultimate-prompt-engineering-playbook&type=Date)](https://star-history.com/#amerob/ultimate-prompt-engineering-playbook&Date)
 
 ---
 
-## 📄 License
+**Made with ❤️ by the AI Community**
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-## ⭐ Star History
-
-If you find this useful, please star the repo! It helps others discover these resources.
-
----
-
-Built with ❤️ for the AI community
+If this repository helps you, please consider giving it a ⭐!

@@ -254,6 +254,5 @@ This project is licensed under the MIT License - see [LICENSE](./LICENSE) for de
 
 ---
 
-**Made with ❤️ by the AI Community**
 
 If this repository helps you, please consider giving it a ⭐!

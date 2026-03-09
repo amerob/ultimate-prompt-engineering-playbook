@@ -9,10 +9,6 @@
 
 ![Prompt Engineering Banner](https://img.shields.io/badge/Prompt%20Engineering-Master%20Class-blue)
 
-## 🚀 Open All Notebooks in Colab
-
-[![Open All Notebooks in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amerob/ultimate-prompt-engineering-playbook/tree/main/)
-
 ## 🌟 What Makes This Special?
 
 This isn't just another list of prompts. It's a **comprehensive, hands-on learning experience** covering every major prompt engineering technique with:

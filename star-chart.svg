@@ -1,1 +1,1 @@
-Failed to start container: Network connection lost.
+Error proxying request to container: The container is not listening in the TCP address 10.0.0.1:8080
